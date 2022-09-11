@@ -1,5 +1,5 @@
 .header {
-    width: 100%;
+    width: 1333px;
     height: 80px;
     background-color: rgb(60, 60, 60);
     display: flex;
@@ -43,7 +43,7 @@ a:hover {
 }
 .container {
     width: 800px;
-    height: 800px;
+    height: 600px;
     margin-left: 150px;
     margin-top: 100px;
     align-items: center;
@@ -77,4 +77,43 @@ a:hover {
 }
 .cont:hover {
     color:black
+}
+
+.seconfmn{
+    width: 1333px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    flex-direction: column;
+    
+}
+.about {
+    color:rgb(255, 99, 71, 1);
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    width: 1333px;
+    height: 120px;
+    text-align: center;
+}
+.fotoand {
+    height: 900px;
+    width: 1333px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.foto {
+    height: 900px;
+    width: 666px;
+}
+.discript {
+    height: 900px;
+    width: 666px;
+}
+.img {
+    height: 300px;
+    width: 300px;
 }
