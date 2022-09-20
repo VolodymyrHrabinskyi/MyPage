@@ -79,13 +79,17 @@ a:hover {
     color:black
 }
 
-.seconfmn{
+.secondmn{
     width: 1333px;
     height: 1000px;
     display: flex;
     justify-content: center;
     background-color: rgb(70, 70, 70);
     flex-direction: column;
+    background-image: url("/imagine/about.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 300px 50px;
     
 }
 .about {
@@ -95,7 +99,7 @@ a:hover {
     font-size: 50px;
     font-weight: 500;
     width: 1333px;
-    height: 120px;
+    height: 20px;
     text-align: center;
 }
 .fotoand {
@@ -120,7 +124,7 @@ a:hover {
     width: 320px;
     height: 400px;
     border: 5px ;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     position: absolute;
 
   }
@@ -133,5 +137,11 @@ a:hover {
   .exmpl img {
     height: 100%;
     width: auto;
+  }
+
+  .backgr {
+    align-items: center;
+    text-align: center;
+    
   }
   
