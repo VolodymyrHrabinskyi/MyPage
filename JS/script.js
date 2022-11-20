@@ -1,11 +1,29 @@
-// const button = document.getElementById("skills-nav");
-// const skills = document.getElementById("skills");
-// console.log(button);
-// button.addEventListener("click", () => {
-//   skills.scrollIntoView({
-//     block: "start",
-//     behavior: "smooth",
-//     inline: "start",
-//   });
-//   console.log("hello");
-// });
+/*
+const usdCurr = 28;
+const uerCurr = 32;
+const discount = 0.9;
+
+function convert (amount, curr) {
+    return curr * amount;
+}
+
+
+function promotion (result) {
+    console.log (result * discount);
+}
+
+
+const res = convert(500, usdCurr)
+promotion (res);
+
+function test () {
+    for (let i = 0; i < 5; i++){
+        console.log(i);
+        if (i === 3) return
+    }
+    console.log('Done');
+}
+test();
+*/
+
+
