@@ -69,7 +69,8 @@ a:hover {
   display: flex;
   justify-content: center;
   margin-left: 4px;
-  margin-top: 10px;
+  margin-top: 30px;
+  border-radius: 3px;
 
 }
 
@@ -516,6 +517,7 @@ button:hover {
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .right {
@@ -525,17 +527,21 @@ button:hover {
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 
 .prj1 {
-  width: 350px;
-  height: 350px;
+  width: 600px;
+  height: 250px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   background-image: url("/imagine/MyDemoShop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .prj2 {
@@ -544,8 +550,11 @@ button:hover {
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 350px;
-  height: 350px;
-  background-image: url("/imagine/MyDemoShop.png");
+  width: 600px;
+  height: 250px;
+  background-image: url("/imagine/Modest-landing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
