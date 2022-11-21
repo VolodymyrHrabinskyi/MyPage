@@ -509,19 +509,43 @@ button:hover {
   flex-direction: row;
 }
 
-.prj1 {
-  width: 50%;
-  height: 50%;
+.left {
+  width: 650px;
+  height: 500px;
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: center;
+}
+
+.right {
+  width: 650px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.prj1 {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/imagine/MyDemoShop.png");
 }
 
 .prj2 {
-  width: 50%;
-  height: 50%;
+
   display: flex;
+  justify-content: center;
   text-align: center;
   align-items: center;
+  width: 350px;
+  height: 350px;
+  background-image: url("/imagine/MyDemoShop.png");
 
 }
