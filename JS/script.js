@@ -24,6 +24,25 @@ function test () {
     console.log('Done');
 }
 test();
+
+"use strict";
+
+const str = "test";
+
+console.log(str.toUpperCase());
+console.log(str);
+
+
+const logg = "hello world";
+
+console.log(logg.slice(6, 11))
+
+console.log(logg.(6, 11));
 */
 
+const num = 12.2;
+console.log(Math.round(num));
 
+const test = "12.2px";
+
+console.log(parseInt(test))
